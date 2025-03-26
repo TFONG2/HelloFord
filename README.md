@@ -1,2 +1,3 @@
 # HelloFord
-This repo is a test 
+
+Simple Window Creation Using The Win32 API (Test Repo)
