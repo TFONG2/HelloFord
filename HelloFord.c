@@ -17,7 +17,7 @@ int main() {
     // Load the icon (check if it's loaded successfully)
     HICON hIcon = (HICON)LoadImage(NULL, "C:\\IBUILDtmp\\StudioX\\Studio_X desktop icon with alpha.ico", IMAGE_ICON, 0, 0, LR_LOADFROMFILE);
     if (!hIcon) {
-        MessageBox(NULL, "Failed to load icon.", "Error", MB_OK | MB_ICONERROR);
+        MessageBox(NULL, "Failed to load ico.", "Error", MB_OK | MB_ICONERROR);
         return 1; // Exit if icon loading fails
     }
 
